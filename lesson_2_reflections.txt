@@ -1,0 +1,16 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When initializing a repository, it will be more efficent to achieve a lot of things in coding. It can store the whole history of changes in coding of a file and you can go back to any previous version you like in your code. 
+One of the reasons I may need to use it that I can detect and modify a bug introduced in my code in an easy way and I can create a project from scratch through a repository.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like a mediator between the working directory and the repository. It helps the developer to control what he wants to commit and how. The developer may want to change some files and leave the rest, so the staging area helps him doing this. After the developer determine which files he will make changes to in his working directory, he adds them to the staging area then moves them to the repository. Thus, it helps the developer to make a commit anytime even if it's a tiny change.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If I've made more than one logical change since committing, I can add all the changes affected by the first logical change to the staging area, then commit those without committing the others. 
+
