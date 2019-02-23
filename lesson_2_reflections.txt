@@ -15,9 +15,13 @@ How can you use the staging area to make sure you have one commit per logical ch
 If I've made more than one logical change since committing, I can add all the changes affected by the first logical change to the staging area, then commit those without committing the others. 
 
 
-
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 The idea of branches in Git is really helpful since it encourages the developer to try things in his head out which makes him more creative and looks crative as well because he shows others what he has in mind. It also helps to make updates to an application or a project without affecting current users. This is good because the new updates may be bad and having problems. So if you wanna try an update and see the reaction of the update before you offically announce it, you may create a branch and show the update to your colleagues and friends first and thake the feedback and work on improving your changes if you need to.
+
+
+How do the diagrams help you visualize the branch structure?
+
+It helps me to see a big picture of the linear commits from the basic parent until the tip of the branch. It helps me also to understand deeply and defrentiate different branches I have in my project. It also visualize the relationship between the master branch and the new branches and where they meet on the line going in direction of their parent. It helps me understand that it's possible to checkout an old commit, make a new branch from it, give it a new name and make other commits as this commit, on which the new branch was made, their actual parent.
 
 
