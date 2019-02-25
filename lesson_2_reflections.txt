@@ -25,3 +25,8 @@ How do the diagrams help you visualize the branch structure?
 It helps me to see a big picture of the linear commits from the basic parent until the tip of the branch. It helps me also to understand deeply and defrentiate different branches I have in my project. It also visualize the relationship between the master branch and the new branches and where they meet on the line going in direction of their parent. It helps me understand that it's possible to checkout an old commit, make a new branch from it, give it a new name and make other commits as this commit, on which the new branch was made, their actual parent.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge two branches together, we actually merging the commits or changes that we have made to gather in one file to have the effect of oll of them on our project. All commits will be reachable by the branch we checked out when we did the merge. Representing the merge in a digram will clarify the relationship between branches and where they meet on the line of commits. It also helps to show which commits belong to which before and after the mergeing process.
+
+
