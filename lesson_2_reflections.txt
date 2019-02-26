@@ -30,3 +30,10 @@ What is the result of merging two branches together? Why do we represent it in t
 When we merge two branches together, we actually merging the commits or changes that we have made to gather in one file to have the effect of oll of them on our project. All commits will be reachable by the branch we checked out when we did the merge. Representing the merge in a digram will clarify the relationship between branches and where they meet on the line of commits. It also helps to show which commits belong to which before and after the mergeing process.
 
 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is really cool and saves time and effort for the developer. But unfortunately this doesn't work all time. Manual merging is tedious and consumes time. But it's the solution at the time of conflicts when changing the same lines of code. The best thing about merging manually is that the developer gurantee the result he wants and wxpects will show in the project file he's working on, unlike the automatic merging at the time of conflicts which might show unwanted and unexpected results. In short, both of the two kinds of merging are useful: automatic at the time of no conflict, and manual at the time of conflict.
+
+
