@@ -19,3 +19,9 @@ I would use forks when I want someone else collaborate with me on my project or 
 I use branching for most cases where I want to add new changes to a repository while keeping an easy reference to a previous version, especially when collaborating with other people.  I clone a repository on GitHub when I want to work on that repository locally rather than using the GitHub website. I fork a repository on GitHub when I want to make changes to that repository public, but I don't have permission to modify the original." By the way, Thanks for Caroline Buckey for this clarification (the last part of this answer inside equation marks).
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+One of the benefits of having a copy of the last known state of the remote stored locally is enabling you to work offline after you clone it and to start where others end. So, you can update your local copy if you know that you will not have internet access for a while and need to keep working. You can do this even if you are not ready to merge those changes into your own branches yet. Then if you want, you can perform the merge while offline too.
+This also makes comparing your version of code to others' versions easier and in less time, and it makes it easy to resolve conflicts between different versions of code if any.
+
+
