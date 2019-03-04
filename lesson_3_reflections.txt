@@ -25,3 +25,10 @@ One of the benefits of having a copy of the last known state of the remote store
 This also makes comparing your version of code to others' versions easier and in less time, and it makes it easy to resolve conflicts between different versions of code if any.
 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If there is no Git and GitHub, it will not affect the developer in code writing itself but it will affect him if he made a mistake or typo which I'm pretty sure he will because everone makes mistakes and if he wants others to review his work.
+When your code doesn't run perfectly, it would be harder to find your mistakes and typos to fix them without Git since you have to scan your code line by line manually to find the problem and fix them. This is doable but it consumes time and effort and may distract you a little of your basic task or job creating programs and achieve great things.
+When you want your colleagues or your supervisor to check your changes in code before you merge them into the main branch, it would be harder without GitHub since you will have to invite them to look at the changes on your own computer or sending the files through emails and it will also be tedious for them to find mistakes and typos withot Git too. And after they correct mistakes if any, they send the files back to the developer again and it will be harder for the developer to compare his version of code to his colleagues' version without Git and GitHub. So, Git and GitHub are perfect tools in writing programs and collaborating with others since it makes the process of working with code smooth and less problematic.
+
+
